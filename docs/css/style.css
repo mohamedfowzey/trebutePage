@@ -37,6 +37,7 @@ p{
     text-align: center;   
 }
 main{
+    margin: 0px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -72,4 +73,20 @@ ol p{
 }
 section{
     width: 700px;
+}
+@media (max-width:1000px){
+    main{
+        width:80vw;
+        margin: 0px;
+    }
+    p{
+        width: 70vw;
+    }
+    
+    h1,h2{
+        width:70vw;
+    }
+    section{
+        width: fit-content;
+    }
 }
